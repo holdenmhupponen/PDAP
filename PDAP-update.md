@@ -1,0 +1,3 @@
+# Week 2
+
+Having changed my degree after my first semester, I have seen first-hand the differences in classrooms and lecture halls between faculties and departments. Of course, this applies not only to majors but also to any electives taken outside of one's major. I think it would satiate my curiousity to use these data tools to compile information about Carleton classrooms and lecture halls, classifying them by size, use, what features they do or do not have, when their were made, and, importantly, their building. What does each building offer in terms of pros and cons for their rooms? How does the student experience differ based on these qualities?
