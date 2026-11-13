@@ -13,3 +13,7 @@ Aside from that, I thought about using KoboToolbox for inputting basic informati
 Following last week, I created a KoboToolbox data set to input some rooms in. I will start adding entries to this next week. Additionally, I might try my hand at replicating a Python code that handles data like the one from this week's burial sites.
 
 Here is the set I have right now: https://ee.kobotoolbox.org/x/LFsjmE72
+
+# Week 7
+
+This week I began making a script in R modelled off this week's sample script used for the family gravestone exercises. So far, it can take the exported .csv from KoboToolbox and define its values into "rooms", then extract individual rooms by a specific identifier into a variable "nodes." Though much of this was from the exercise, I had to learn a lot about R from StackOverflow. This includes what the dollar sign does, how the brackets work, what the parameters are for read.csv, what c means, et cetera. It is attached.
