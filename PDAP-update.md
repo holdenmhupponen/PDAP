@@ -17,3 +17,12 @@ Here is the set I have right now: https://ee.kobotoolbox.org/x/LFsjmE72
 # Week 7
 
 This week I began making a script in R modelled off this week's sample script used for the family gravestone exercises. So far, it can take the exported .csv from KoboToolbox and define its values into "rooms", then extract individual rooms by a specific identifier into a variable "nodes." Though much of this was from the exercise, I had to learn a lot about R from StackOverflow. This includes what the dollar sign does, how the brackets work, what the parameters are for read.csv, what c means, et cetera. It is attached.
+
+The following are some of the websites/resources I used to find out more about these things:
+- https://stackoverflow.com/questions/42560090/what-is-the-meaning-of-the-dollar-sign-in-r-function
+- https://www.reddit.com/r/RStudio/comments/1g6gaoq/how_do_we_know_when_to_use_brackets_in_r/
+- https://www.stat.ubc.ca/~jenny/STAT545A/block03_basicObjects.html
+- https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/paste
+- https://stackoverflow.com/questions/17075529/subset-based-on-variable-column-name
+- https://r.tiid.org/loading-data-and-subsetting.html
+- https://www.rdocumentation.org/packages/COVID19/versions/2.0.3/topics/read.csv
