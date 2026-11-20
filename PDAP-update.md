@@ -26,3 +26,20 @@ The following are some of the websites/resources I used to find out more about t
 - https://stackoverflow.com/questions/17075529/subset-based-on-variable-column-name
 - https://r.tiid.org/loading-data-and-subsetting.html
 - https://www.rdocumentation.org/packages/COVID19/versions/2.0.3/topics/read.csv
+
+# Week 8
+
+This week I continued working on my graph theory script. However, upon revisiting my work, I realized that I was just trying to blindly apply the graph theory stuff to my PDAP without considering what that would actually give me. I did some surface-level research on how different networks are compared, and realized that the geographical networks of the exercises we did last week would not give me much out for my specific subject. It would just tell me where the rooms are on campus, I believe. So I wondered if I could use this graph theory to kind of track the differences between the rooms and how, for example, a room being a lecture hall might make it more likely to have a certain colour of wall, based on its similarity or not to another room with a lecture hall, etc. I stumbled (by looking at a bunch of Google Searches and forums) on Gower's distance, which is apparently a big deal in this kind of stuff. It basically tracks how similar two things are based on more than one aspect of them. This was great because there is a package called cluster in R that has the daisy() function to calculate the Gower distance. I set my sets on turning my script into that purpose. This sent me on a long-winded rabbit hole of trying to figure out how I can turn the results of a Gower distance calculation into my edge list. With the help of Google, Stack Overflow, et cetera, I managed to create an edge list that I think should work? I don't have enough entries into the KoboToolbox yet to actually confirm or check it -- and I'm still not entirely sure how everything works -- but it passes the surface check, at least. At the end of the script, I tried pasting in the graphing code for the closeness centrality calculation from the Week Seven sample code, but it didn't work. I will try next week to read these errors and debug in order to try and plot the data I have. Perhaps it's just because there aren't enough entries? I will do that also. I tried to collect all my sources hence:
+- https://www.rdocumentation.org/packages/cluster/versions/1.2-2/topics/daisy
+- https://www.jstor.org/stable/2528823?origin=crossref
+- https://search.r-project.org/CRAN/refmans/StatMatch/html/gower.dist.html
+- https://stat.ethz.ch/R-manual/R-devel/library/cluster/html/daisy.html
+- https://stackoverflow.com/questions/43424761/what-are-the-practical-differences-between-factor-and-string-data-types-in-r
+- https://stats.stackexchange.com/questions/22212/gowers-dissimilarity-index
+- https://www.w3schools.com/r/r_matrices.asp
+- https://www.rdocumentation.org/packages/data.table/versions/1.18.6.1/topics/as.matrix
+- https://en.wikipedia.org/wiki/Edge_list
+- https://stackoverflow.com/questions/13204046/how-to-create-an-edge-list-from-a-matrix-in-r
+- https://stackoverflow.com/questions/33046636/difference-between-as-data-framex-and-asx-data-frame
+- https://www.datanovia.com/learn/programming/data-wrangling/rename-columns-in-r
+- https://r.igraph.org/reference/graph_from_data_frame.html
